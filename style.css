@@ -1,8 +1,26 @@
 :root {
     background-color: white;
+    margin: 88px 80px;
+    font-family: "Open sans", serif;
 }
 
-#divisor {
+.questions {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #E1624F;
+}
+
+.subtitle {    
+    font-size: 16px;
+    line-height: 22px;
+    font-style: italic; /* Muda estilo da fonte para itálico */
+    text-align: center;
+    color: #E1624F;
+    margin-top: 24px;
+}
+
+.divisor {
+    /* margin-bottom: 36; */
     width: 100%;
     height: 1px;
     margin: 36px 0;
@@ -12,4 +30,32 @@
 img {
     border-radius: 28px;
     width: 100%;
+}
+
+ul .history {
+    color: #0C51A7;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+ul .couple  {
+    color: #591B98;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+ul .family {
+    color: #E5245E;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+ul .budget {
+    color: #E95E10;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+ul li::marker {
+    color: #333333;
 }
