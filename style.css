@@ -1,10 +1,24 @@
-:root {
+* {
+    margin: 0;
+    padding: 0;
     background-color: white;
-    margin: 88px 80px;
     font-family: "Open sans", serif;
 }
 
-.questions {
+main {
+    margin: 88px 80px;
+}
+
+header .questions {
+    font-size: 16x;
+    padding: 0px 0px 8px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #E1624F;
+}
+
+nav .questions {
+    padding: 0px 0px 8px;
     font-weight: bold;
     text-transform: uppercase;
     color: #E1624F;
@@ -30,6 +44,10 @@
 img {
     border-radius: 28px;
     width: 100%;
+}
+
+br + span {
+    font-weight: bold;
 }
 
 ul .history {
@@ -58,4 +76,23 @@ ul .budget {
 
 ul li::marker {
     color: #333333;
+}
+
+footer {
+    font-family: "Alice",serif;
+    color: black;
+    text-align: center;
+    padding-top: 65px;
+    text-transform: capitalize;
+}
+
+footer img {
+    vertical-align: middle;
+    width: 16px;
+    height: 16px;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
 }
