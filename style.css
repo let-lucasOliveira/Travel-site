@@ -5,27 +5,48 @@
     font-family: "Open sans", serif;
 }
 
+p {
+    font-size: 16px;
+    width: 1120px;
+}
+
+h1 {
+    font-size: 36px;
+    height: 49px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 28px;
+    padding: 20px 0 8px;
+}
+
+span {
+    margin-top: 20px;
+}
+
 main {
     margin: 88px 80px;
 }
 
 header .questions {
-    font-size: 16x;
+    height: 22px;
     padding: 0px 0px 8px;
     font-weight: bold;
     text-transform: uppercase;
     color: #E1624F;
 }
 
-nav .questions {
-    padding: 0px 0px 8px;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: #E1624F;
+header h1 {
+    padding-bottom: 40px;
 }
 
 .subtitle {    
     font-size: 16px;
+    padding: 0 20px 4px;
     line-height: 22px;
     font-style: italic; /* Muda estilo da fonte para itálico */
     text-align: center;
@@ -34,11 +55,24 @@ nav .questions {
 }
 
 .divisor {
-    /* margin-bottom: 36; */
     width: 100%;
     height: 1px;
-    margin: 36px 0;
+    margin: 32px 0;
     background-color: #d9d9d9;
+}
+
+nav .questions {
+    height: 22px;
+    margin-top: 64px;
+    padding: 0px 0px 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #E1624F;
+}
+
+nav h2 + p {
+    font-size: 16px;    
+    padding: 8px 0 64px;
 }
 
 img {
@@ -46,8 +80,16 @@ img {
     width: 100%;
 }
 
+.context-of-image {
+    margin-bottom: 48px;
+}
+
 br + span {
     font-weight: bold;
+}
+
+ul {
+    padding-left: 24px;
 }
 
 ul .history {
@@ -83,7 +125,7 @@ footer {
     color: black;
     text-align: center;
     padding-top: 65px;
-    text-transform: capitalize;
+    text-transform: inherit;
 }
 
 footer img {
